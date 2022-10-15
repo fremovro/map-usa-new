@@ -5,7 +5,8 @@ module.exports = function (environment) {
     modulePrefix: 'map-usa',
     environment,
     backendURL: 'https://api.npoint.io/e55e23fb7dacc69e7b38',
-    rootURL: '/',
+    rootURL: '/map-usa-new/',
+    // rootURL: '/',
     locationType: 'auto',
     EmberENV: {
       FEATURES: {
