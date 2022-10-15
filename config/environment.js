@@ -4,7 +4,7 @@ module.exports = function (environment) {
   let ENV = {
     modulePrefix: 'map-usa',
     environment,
-    backendURL: 'http://localhost:3000',
+    backendURL: 'https://api.npoint.io/e55e23fb7dacc69e7b38',
     rootURL: '/',
     locationType: 'auto',
     EmberENV: {
