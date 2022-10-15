@@ -94,7 +94,7 @@ export default Component.extend({
     };
     info.update = function (props) {
         this._div.innerHTML = '<h4>Information about state</h4>' +  
-        (props ? '<b>' + props.name + '</b><br />Capital: ' + props.capital + '</b><br />Foundation: ' + props.foundation : 'Hover over a state');
+        (props ? '<b>' + props.name + '</b><br />Capital: ' + props.capital + '</b><br />Foundation: ' + props.foundation : 'Click on any state');
     };
     info.addTo(map);
   }
